@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Файловое хранилище</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Файловое хранилище</h1>
+        </header>
+        <main>
+            <section class="upload-section">
+                <form id="uploadForm" class="upload-form">
+                    <input type="file" name="file" id="fileInput" required>
+                    <button type="submit" class="upload-btn">Загрузить</button>
+                </form>
+            </section>
+
+            <section class="files-section">
+                <h2>Список файлов</h2>
+                <div id="fileList" class="file-list"></div>
+            </section>
+        </main>
+        <footer>
+            <p>© 2024 Файловое хранилище. Все права защищены.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
